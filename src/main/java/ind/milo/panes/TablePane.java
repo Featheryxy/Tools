@@ -120,7 +120,7 @@ public class TablePane extends AbstractTab {
     }
 
     private void onCopy(TableCell<TaskItem, TaskItem> cell) {
-        String ftlPath = "F:\\JavaFX\\HSTools\\src\\main\\resources\\ftl";
+        String ftlPath = "F:\\JavaFX\\tools\\src\\main\\resources\\ftl";
         String ftlName = "mdf.ftl";
         FreemarkerUtil freemarkerUtil = new FreemarkerUtil(ftlPath, ftlName);
         Map<String, String> stringMap = null;

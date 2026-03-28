@@ -21,7 +21,7 @@ public class FileUtil {
     }
 
     public static void main(String[] args) {
-        String path = "F:\\GitHubNote\\HSTools\\src\\main\\java\\ind\\milo\\util";
+        String path = "F:\\GitHubNote\\tools\\src\\main\\java\\ind\\milo\\util";
         listFile(path);
     }
 }

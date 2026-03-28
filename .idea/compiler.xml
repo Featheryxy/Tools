@@ -8,11 +8,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HStools" />
+        <module name="tools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="HStools (1)" target="8" />
+      <module name="tools" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

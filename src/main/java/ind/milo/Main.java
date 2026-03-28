@@ -19,6 +19,9 @@ import javafx.stage.Stage;
 import ind.milo.panes.MdfTab;
 import ind.milo.panes.SqlTab;
 
+/**
+ * @author MiloYe
+ */
 public class Main extends Application {
     @Override
     public void init() throws Exception {
@@ -77,7 +80,7 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.setWidth(800);
         primaryStage.setHeight(450);
-        primaryStage.setTitle("HSTools");
+        primaryStage.setTitle("Tools");
         primaryStage.show();
     }
 

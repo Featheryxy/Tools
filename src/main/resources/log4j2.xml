@@ -3,8 +3,8 @@
     <Properties>
         <Property name="patternLayout">%d{MM-dd HH:mm:ss.SSS} %p %.6t %l:%m%n</Property>
         <Property name="logFilePath">log</Property>
-        <Property name="logFileName">HSTools.log</Property>
-        <Property name="appName">HSTools</Property>
+        <Property name="logFileName">tools.log</Property>
+        <Property name="appName">tools</Property>
     </Properties>
 
     <appenders>

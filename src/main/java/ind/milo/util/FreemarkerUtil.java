@@ -48,7 +48,7 @@ public class FreemarkerUtil {
 
 
     public static void main(String[] args) throws TemplateException, IOException, InvocationTargetException, IllegalAccessException, NoSuchMethodException {
-        String ftlPath = "F:\\JavaFX\\HSTools\\src\\main\\resources\\ftl";
+        String ftlPath = "F:\\JavaFX\\tools\\src\\main\\resources\\ftl";
         String ftlName = "mdf.ftl";
         FreemarkerUtil freemarkerUtil = new FreemarkerUtil(ftlPath, ftlName);
 //        Map map = new HashMap();

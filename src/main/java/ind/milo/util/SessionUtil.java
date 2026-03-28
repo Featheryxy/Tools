@@ -3,9 +3,9 @@ package ind.milo.util;
 import java.sql.*;
 
 public class SessionUtil {
-//    private static final String TCP_JDBC_URL = "jdbc:h2:tcp://127.0.0.1/F:\\GitHubNote\\HSTools\\database\\work";
-//    private static final String TCP_JDBC_URL = "jdbc:h2:F:\\GitHubNote\\HSTools\\database\\work";
-    private static final String TCP_JDBC_URL = "jdbc:h2:F:\\JavaFX\\HSTools\\database\\work";
+//    private static final String TCP_JDBC_URL = "jdbc:h2:tcp://127.0.0.1/F:\\GitHubNote\\tools\\database\\work";
+//    private static final String TCP_JDBC_URL = "jdbc:h2:F:\\GitHubNote\\tools\\database\\work";
+    private static final String TCP_JDBC_URL = "jdbc:h2:F:\\JavaFX\\tools\\database\\work";
     private static final String USER = "sa";
     private static final String PASSWORD = "213213";
     private static final String DRIVER_CLASS = "org.h2.Driver";

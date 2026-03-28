@@ -98,7 +98,7 @@ under the License.
   <component name="ProjectModuleManager"> 
     <modules> 
       <!-- module filepath="$$PROJECT_DIR$$/${pom.artifactId}.iml"/ -->  
-      <module filepath="$PROJECT_DIR$/HStools.iml"/>
+      <module filepath="$PROJECT_DIR$/tools.iml"/>
     </modules> 
   </component>  
   <UsedPathMacros> 
