@@ -12,6 +12,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ToDo {
+    /**
+     * id
+     */
     private Integer todoId;
     private String todoName;
     private Integer deadline;

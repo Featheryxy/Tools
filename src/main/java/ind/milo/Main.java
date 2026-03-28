@@ -18,6 +18,8 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import ind.milo.panes.MdfTab;
 import ind.milo.panes.SqlTab;
+import ind.milo.panes.JsonGenTab;
+import ind.milo.panes.FieldExtractorTab;
 
 /**
  * @author MiloYe
@@ -37,10 +39,17 @@ public class Main extends Application {
         AbstractTab mdfTab = new MdfTab();
         AbstractTab sqlTab = new SqlTab();
         AbstractTab toDoTab = new ToDoTab();
+        AbstractTab jsonGenTab = new JsonGenTab();
+        AbstractTab fieldExtractorTab = new FieldExtractorTab();
 
         sqlTab.display();
         tablePane.display();
-        tabPane.getTabs().addAll(tablePane.getTab(),mdfTab.getTab(), sqlTab.getTab(), toDoTab.getTab());
+        tabPane.getTabs().addAll(tablePane.getTab(),
+                mdfTab.getTab(),
+                sqlTab.getTab(),
+                toDoTab.getTab(),
+                jsonGenTab.getTab(),
+                fieldExtractorTab.getTab());
 
         Separator hSeparator = new Separator(Orientation.HORIZONTAL);
 

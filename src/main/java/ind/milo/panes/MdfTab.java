@@ -34,6 +34,7 @@ public class MdfTab extends AbstractTab {
     }
 
 
+    @Override
     public void init() {
         mdfTab.setClosable(false);
         hBox.getChildren().addAll(transferBtn, fileBtn,parseBtn);
@@ -43,6 +44,7 @@ public class MdfTab extends AbstractTab {
         mdfTab.setContent(vBox);
     }
 
+    @Override
     public void action() {
         // todo 后续改成线程监听
         transferBtn.setOnAction(actionEvent -> {
